@@ -9505,13 +9505,13 @@ function t557_init(recid, snowtype) {
     var snowflakes = [];
 
     snowflakes[0] = document.createElement('img');
-    snowflakes[0].setAttribute('src', 'https://static.tildacdn.com/img/snowflakes_1.png');
+    snowflakes[0].setAttribute('src', 'assets/img/snowflakes_1.png');
 
     snowflakes[1] = document.createElement('img');
-    snowflakes[1].setAttribute('src', 'https://static.tildacdn.com/img/snowflakes_2.png');
+    snowflakes[1].setAttribute('src', 'assets/img/snowflakes_2.png');
 
     snowflakes[2] = document.createElement('img');
-    snowflakes[2].setAttribute('src', 'https://static.tildacdn.com/img/snowflakes_3.png');
+    snowflakes[2].setAttribute('src', 'assets/img/snowflakes_3.png');
 
     var imageCount = snowflakes.length;
     var imagesLoaded = 0;
@@ -14308,7 +14308,7 @@ function t744__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverZoomScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverZoomScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverZoomScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -15157,7 +15157,7 @@ function t754__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -15912,7 +15912,7 @@ function t762__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverZoomScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverZoomScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverZoomScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -16637,7 +16637,7 @@ function t776__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -17162,7 +17162,7 @@ function t778__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -18366,7 +18366,7 @@ function t786__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
@@ -28811,7 +28811,7 @@ function t1025__hoverZoom_init(recid) {
             return;
         }
 
-        var hoverScript = 'https://static.tildacdn.com/js/tilda-hover-zoom-1.0.min.js';
+        var hoverScript = 'assets/js/tilda-hover-zoom-1.0.min.js';
         if (document.querySelector("script[src^='" + hoverScript + "']")) {
             t_onFuncLoad('t_hoverZoom_init', function () {
                 t_hoverZoom_init(recid);
